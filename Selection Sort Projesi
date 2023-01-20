@@ -30,7 +30,7 @@ Average case: Aradığımız sayının ortada olması
 Worst case: Aradığımız sayının sonda olması
 Best case: Aradığımız sayının dizinin en başında olması.
 CEVAP
-Average case
+Ortada olduğu için Average case
 
 SORU
 [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
