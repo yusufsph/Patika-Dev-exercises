@@ -1,0 +1,34 @@
+SORU
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+CEVAP 
+ROOT 6 olsun
+0 sayısı 6 dan küçük o yüzden altının sağına ekledik
+9 sayısı 6 dan büyük o yüzden altının soluna ekledik
+4 sayısı 6 dan küçük o yüzden altının sağına ekledik. Aynı zamanda 0 dan büyük o yüzden sıfırın sağına ekledik
+2 sayısı 6 dan küçük o yüzden altının sağına ekledik. Aynı zamanda 0 dan büyük o yüzden sıfırın sağına ekledik. 4 sayısından küçük olduğu için soluna ekledik
+7 sayısı 6 dan büyük o yüzden altının soluna ekledik. Aynı zamanda 9 dan küçük o yüzden dokuzun soluna ekledik
+5 sayısı 6 dan küçük o yüzden altının sağına ekledik. Aynı zamanda 0 dan büyük o yüzden sıfırın sağına ekledik. 4 sayısından büyük olduğu için sağına ekledik
+1 sayısı 6 dan küçük o yüzden altının sağına ekledik. Aynı zamanda 0 dan büyük o yüzden sıfırın sağına ekledik. 4 sayısından küçük olduğu için soluna ekledik. 2 den
+küçük olduğu için soluna ekledik
+8 sayısı 6 dan büyük o yüzden altının soluna ekledik. Aynı zamanda 9 dan küçük o yüzden dokuzun soluna ekledik. 7 sayısından büyük olduğu için sağına ekledik
+3 sayısı 6 dan küçük o yüzden altının sağına ekledik. Aynı zamanda 0 dan büyük o yüzden sıfırın sağına ekledik. 4 sayısından küçük olduğu için soluna ekledik. 2 den
+büyük olduğu için sağına ekledik
+          6
+        /   \
+       /     \
+      0       9
+       \     /  
+        4   7
+       / \   \
+      2   5   8
+     / \
+    1   3
+        
+        
+        
+        
+        
+        
+        
+        
